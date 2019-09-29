@@ -3,6 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
+import { MacvaComponent } from './projects/macva/macva.component';
+import { OffseasonComponent } from './projects/offseason/offseason.component';
 
 
 const routes: Routes = [
@@ -22,6 +24,14 @@ const routes: Routes = [
   {
     path: 'resume',
     component: ResumeComponent
+  },
+  {
+    path: 'projects/macva',
+    component: MacvaComponent
+  },
+  {
+    path: 'projects/offseason',
+    component: OffseasonComponent
   }
 ];
 

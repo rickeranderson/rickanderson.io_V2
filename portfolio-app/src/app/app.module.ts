@@ -7,13 +7,17 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
+import { MacvaComponent } from './projects/macva/macva.component';
+import { OffseasonComponent } from './projects/offseason/offseason.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ResumeComponent
+    ResumeComponent,
+    MacvaComponent,
+    OffseasonComponent
   ],
   imports: [
     BrowserModule,
