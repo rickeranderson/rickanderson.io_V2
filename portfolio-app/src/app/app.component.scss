@@ -1,0 +1,27 @@
+html,
+body,
+header,
+.carousel {
+  height: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+        .navbar:not(.top-nav-collapse) {
+            background: #1C2331!important;
+        }
+    }
+
+.carousel,.carousel .carousel-inner,.carousel .carousel-inner .active,.carousel .carousel-inner .carousel-item,.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("../assets/black-blue-computer-keyboard-1194713.jpg");
+    background-size: cover;
+    color: #f7f7f7;
+    height: 100vh;
+    
+}
+
+.jumbotron-fluid {
+    padding: 4rem 2rem;
+}
